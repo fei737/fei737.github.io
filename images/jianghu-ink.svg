@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="none">
+  <defs>
+    <linearGradient id="fade" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#1f2520" stop-opacity="0"/>
+      <stop offset="0.34" stop-color="#1f2520" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#1f2520" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="softInk">
+      <feGaussianBlur stdDeviation="13"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="900" fill="none"/>
+  <path d="M-80 635 C150 520 260 575 390 470 C560 330 700 545 830 415 C995 255 1110 445 1260 360 C1410 275 1515 365 1680 295 L1680 900 L-80 900 Z" fill="#1f2520" opacity="0.12" filter="url(#softInk)"/>
+  <path d="M-90 720 C120 630 300 670 450 600 C600 530 720 670 900 560 C1080 455 1220 600 1380 500 C1500 430 1585 470 1690 410 L1690 900 L-90 900 Z" fill="#526b5a" opacity="0.10" filter="url(#softInk)"/>
+  <path d="M-60 655 C160 540 285 610 430 505 C575 405 710 520 840 440 C990 345 1110 480 1270 395 C1400 325 1510 395 1660 330" fill="none" stroke="#1f2520" stroke-width="3" opacity="0.16"/>
+  <path d="M0 0 H1600 V900 H0 Z" fill="url(#fade)"/>
+</svg>
