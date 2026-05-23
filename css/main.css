@@ -1143,7 +1143,7 @@ pre code {
     vertical-align: middle;
   }
   .links-of-author a::before {
-    background: #b41cac;
+    background: #ec38c9;
     display: inline-block;
     margin-right: 3px;
     transform: translateY(-2px);
@@ -2615,21 +2615,21 @@ header.header {
 }
 :root {
   --ink: #1f2520;
-  --ink-soft: #586057;
-  --paper: #f7f3e8;
-  --paper-deep: #ede5d4;
-  --cinnabar: #8f2f2f;
-  --bamboo: #526b5a;
-  --border-ink: rgba(31,37,32,0.16);
+  --ink-soft: #5f625d;
+  --paper: #f5f5f2;
+  --paper-deep: #e8e8e4;
+  --cinnabar: #7f2f2f;
+  --bamboo: #505550;
+  --border-ink: rgba(20,20,20,0.13);
 }
 body {
   color: var(--ink);
-  background: linear-gradient(90deg, rgba(31,37,32,0.025) 1px, transparent 1px), linear-gradient(180deg, rgba(31,37,32,0.02) 1px, transparent 1px), url("/images/jianghu-ink.svg"), radial-gradient(circle at 12% 18%, rgba(143,47,47,0.1), transparent 18rem), var(--paper);
+  background: linear-gradient(90deg, rgba(20,20,20,0.018) 1px, transparent 1px), linear-gradient(180deg, rgba(20,20,20,0.016) 1px, transparent 1px), url("/images/jianghu-ink.svg"), linear-gradient(180deg, rgba(255,255,255,0.82), rgba(232,232,228,0.7)), var(--paper);
   background-attachment: fixed, fixed, fixed, fixed, fixed;
-  background-position: 0 0, 0 0, center bottom, 12% 18%, center;
+  background-position: 0 0, 0 0, center bottom, center, center;
   background-repeat: repeat, repeat, no-repeat, no-repeat, repeat;
   background-size: 28px 28px, 28px 28px, cover, auto, auto;
-  font-family: "LXGW WenKai", "STKaiti", "KaiTi", "Songti SC", "SimSun", serif;
+  font-family: "LXGW WenKai", "Songti SC", "Noto Serif CJK SC", "SimSun", serif;
   letter-spacing: 0;
 }
 a {
@@ -2658,14 +2658,14 @@ a:hover {
 }
 .site-title {
   color: var(--ink);
-  font-family: "STKaiti", "KaiTi", "LXGW WenKai", serif;
+  font-family: "LXGW WenKai", "STKaiti", "KaiTi", serif;
   font-size: 2.3em;
-  font-weight: 700;
+  font-weight: 500;
 }
 .site-subtitle {
   color: var(--ink);
-  font-size: 1.15em;
-  font-weight: 700;
+  font-size: 1.18em;
+  font-weight: 500;
   line-height: 2;
 }
 .site-subtitle,
@@ -2677,29 +2677,29 @@ a:hover {
 .site-description {
   color: var(--ink);
   font-size: 1.18em;
-  font-weight: 800;
+  font-weight: 500;
   line-height: 1.9;
 }
 .site-author-name {
   color: var(--ink);
   font-size: 1.25em;
-  font-weight: 800;
+  font-weight: 600;
 }
 .site-state-item-count {
   color: var(--ink);
   font-size: 1.35em;
-  font-weight: 800;
+  font-weight: 600;
 }
 .site-state-item-name,
 .links-of-author-item a {
   color: var(--ink);
   font-size: 1.02em;
-  font-weight: 700;
+  font-weight: 500;
 }
 .menu-item a {
   color: var(--ink);
   font-size: 1.2em;
-  font-weight: 800;
+  font-weight: 500;
   line-height: 2.2;
 }
 .menu-item i {
@@ -2714,7 +2714,7 @@ a:hover {
 .posts-expand .post-title-link,
 .post-title {
   color: var(--ink);
-  font-family: "STKaiti", "KaiTi", "LXGW WenKai", serif;
+  font-family: "LXGW WenKai", "STKaiti", "KaiTi", serif;
   font-weight: 500;
 }
 .posts-expand .post-title-link::before {
@@ -2730,7 +2730,7 @@ a:hover {
 .post-body h3,
 .post-body h4 {
   color: var(--ink);
-  font-family: "STKaiti", "KaiTi", "LXGW WenKai", serif;
+  font-family: "LXGW WenKai", "STKaiti", "KaiTi", serif;
   font-weight: 500;
 }
 .post-body h2 {
