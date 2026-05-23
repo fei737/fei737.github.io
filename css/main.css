@@ -1143,7 +1143,7 @@ pre code {
     vertical-align: middle;
   }
   .links-of-author a::before {
-    background: #2d53a1;
+    background: #4d58e7;
     display: inline-block;
     margin-right: 3px;
     transform: translateY(-2px);
@@ -2740,6 +2740,56 @@ a:hover {
   color: var(--ink-soft);
   background: rgba(242,242,242,0.82);
   border-left: 4px solid var(--cinnabar);
+}
+.post-body .label.default,
+.post-body .label.primary,
+.post-body .label.info,
+.post-body .label.success,
+.post-body .label.warning,
+.post-body .label.danger {
+  color: var(--ink);
+  background: #eee;
+}
+.post-body .note.default,
+.post-body .note.primary,
+.post-body .note.info,
+.post-body .note.success,
+.post-body .note.warning,
+.post-body .note.danger {
+  background: #f4f4f4;
+  border-left-color: #777;
+}
+.post-body .note.default h2,
+.post-body .note.default h3,
+.post-body .note.default h4,
+.post-body .note.default h5,
+.post-body .note.default h6,
+.post-body .note.primary h2,
+.post-body .note.primary h3,
+.post-body .note.primary h4,
+.post-body .note.primary h5,
+.post-body .note.primary h6,
+.post-body .note.info h2,
+.post-body .note.info h3,
+.post-body .note.info h4,
+.post-body .note.info h5,
+.post-body .note.info h6,
+.post-body .note.success h2,
+.post-body .note.success h3,
+.post-body .note.success h4,
+.post-body .note.success h5,
+.post-body .note.success h6,
+.post-body .note.warning h2,
+.post-body .note.warning h3,
+.post-body .note.warning h4,
+.post-body .note.warning h5,
+.post-body .note.warning h6,
+.post-body .note.danger h2,
+.post-body .note.danger h3,
+.post-body .note.danger h4,
+.post-body .note.danger h5,
+.post-body .note.danger h6 {
+  color: var(--ink);
 }
 .post-button .btn {
   color: var(--cinnabar);
