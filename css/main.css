@@ -1143,7 +1143,7 @@ pre code {
     vertical-align: middle;
   }
   .links-of-author a::before {
-    background: #603bd0;
+    background: #2d53a1;
     display: inline-block;
     margin-right: 3px;
     transform: translateY(-2px);
@@ -2738,7 +2738,7 @@ a:hover {
 }
 .post-body blockquote {
   color: var(--ink-soft);
-  background: rgba(237,229,212,0.38);
+  background: rgba(242,242,242,0.82);
   border-left: 4px solid var(--cinnabar);
 }
 .post-button .btn {
@@ -2754,11 +2754,11 @@ a:hover {
 }
 code {
   color: #7a2c2c;
-  background: rgba(237,229,212,0.56);
+  background: rgba(238,238,238,0.9);
 }
 .highlight,
 pre {
-  background: #f0eadc;
+  background: #f4f4f4;
   border: 1px solid var(--border-ink);
 }
 .sidebar a,
